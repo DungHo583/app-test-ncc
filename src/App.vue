@@ -5,8 +5,8 @@
 </template>
 
 <style>
-@import url(@/assets/style/main.scss);
-@import url(@/assets/responsive/responsive.scss);
+@import url(@/assets/style/main.css);
+@import url(@/assets/responsive/responsive.css);
 @font-face {
   font-family: robotoRegular;
   src: url(@/assets/fonts/Roboto-Regular.ttf);

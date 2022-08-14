@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .row-content-custom {
+    display: block !important;
+  }
+  .col-content-custom {
+    width: 100% !important;
+    margin-bottom: 18px;
+  }
+  .content-col-custom {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation-wrap {
+    display: none;
+  }
+  .homeview-wrap {
+    width: 100% !important;
+  }
+  .info-homeview-card {
+    width: calc(100% - 60px) !important;
+    padding: 30px !important;
+  }
+}

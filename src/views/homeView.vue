@@ -43,15 +43,13 @@
                   {{ items.name }}
                 </div>
                 <div class="content-item-custom">
+                  <img
+                    :src="require(`@/assets/images/${items.image}`)"
+                    width="128px"
+                    height="128px"
+                    alt=""
+                  />
                   <div class="text-font-base">
-                    <span>
-                      <img
-                        :src="require(`@/assets/images/${items.image}`)"
-                        width="128px"
-                        height="128px"
-                        alt=""
-                      />
-                    </span>
                     {{ items.content }}
                   </div>
                 </div>
@@ -165,12 +163,14 @@ export default {
             }
             .content-item-custom {
               width: 100%;
-              .text-font-base {
-                span {
-                  float: left;
-                  margin-right: 16px;
-                }
+              img {
+                float: left;
+                margin-right: 16px;
               }
+              // .text-font-base {
+              //   span {
+              //   }
+              // }
             }
           }
         }
